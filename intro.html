@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HBD BIJIN TENSAI!</title>
+</head>
+<body>
+
+    <style>
+        body {
+      background-color: rgb(255, 255, 255);
+    }
+
+    #bottom{
+        position: absolute;
+        bottom: 0;
+        right: 3vw;
+    }
+
+    </style>
+
+    <div style="text-align: center;">
+        <p class="aligncenter">
+            <img src="curious.gif" style="height: vw; width: vw;"></img><br>
+            <b style="font-size:6vw">Well hmmm today birthday siapa ekkkk?</b><br>
+
+            <img id="image" src="" />
+            <button type="button" onclick="show()" id="btnID" style="height: vw; width: vw;">MEEE!<br></button>
+        </p>
+    </div>
+
+    <script>
+        function show() {
+
+            let image = document.getElementById("image");
+ 
+            image.src ="nod.gif"
+ 
+            document.getElementById("btnID")
+                    .style.display = "none";
+        }
+    </script>
+
+    <div id="bottom">
+        <p style="height: vw; width: vw; font-size:vw">(Sila tekan continue bawah ni lepas tekan 'me',<br> sorry button terlalu ke bawah wkwkw)
+
+        </p>
+        <button onclick="document.location='abc.html'" style="height: vw; width: vw; font-size:vw">Back</button>
+        <button onclick="document.location='janji.html'" style="height: vw; width: vw; font-size:vw">Continue</button>
+    </div>
+
+</body>
+</html>
